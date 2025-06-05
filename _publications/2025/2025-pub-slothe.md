@@ -1,6 +1,6 @@
 ---
 title:          "SLOTHE : Lazy Approximation of Non-Arithmetic Neural Network Functions over Encrypted Data"
-date:           2025-08-13 00:00:00 KST
+date:           2025-08-13 01:00:00 KST
 selected:       true
 pub:            "USENIX Security Symposium (USENIX Sec)"
 # pub_pre:        "Submitted to "
