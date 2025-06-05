@@ -1,17 +1,25 @@
 ---
-title:          "Lorem ipsum: Dolor sit amet, consectetur adipiscing elit"
-date:           2023-01-05 00:01:00 +0800
-selected:       true
-pub:            "Nature Communications"
+title:          "Area-Efficient Accelerator for the Full NTRU-KEM Algorithm"
+date:           2023-06-29 00:00:00 KST
+selected:       false
+pub:            "International Conference on Computational Science and Its Applications (ICCSA)"
+# pub_pre:        "Submitted to "
+# pub_post:       'Under review.'
+# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2023"
+
 abstract: >-
-  Cover image is a photo by Thomas Renaud on Unsplash. The abstract of the publication is meant to be a TLDR (very brief summary with 1~2 sentences) of your paper.
-cover:          /assets/images/covers/cover1.jpg
+  In this paper, we aim to implement an efficient NTRU-KEM algorithm with full functionality by incorporating all functions, including key generation, using a hardware and software co-design approach.
+# cover:          /assets/images/covers/cover3.jpg
 authors:
-- Your Name*
-- Robert White*
-- John Doe
-- Charles Green (Stanford)
+  - Yongseok Lee
+  - Kevin Nam
+  - Youyeon Joo
+  - Jeehwan Kim
+  - Hyunyoung Oh#
+  - Yunheung Paek#
 links:
-  Paper: https://www.cell.com
+  Paper: https://scholarworks.bwise.kr/gachon/bitstream/2020.sw.gachon/92307/1/_ICCSA2023__NTRU.pdf
+  # Code: https://github.com/SNUSOR-PECT/LOHEN_Public
+#   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
