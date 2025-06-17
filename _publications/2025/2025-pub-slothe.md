@@ -18,6 +18,6 @@ authors:
   - Yunheung Paek#
 links:
   # Paper: https://www.usenix.org/system/files/conference/usenixsecurity25/
-  # Code: https://github.com/SNUSOR-PECT/SLOTHE
-  # Zenodo: https://zenodo.org/records/15572278
+  Code: https://github.com/SNUSOR-PECT/SLOTHE
+  Zenodo: https://zenodo.org/records/15572278
 ---
