@@ -35,6 +35,11 @@ plugins:
 timezone: Asia/Seoul
 
 collections:
-  - publications
-  - news
-  - showcase
+  patents:
+    output: true
+  publications:
+    output: true
+  news:
+    output: true
+  showcase:
+    output: false

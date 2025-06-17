@@ -1,0 +1,11 @@
+{% assign item = include.item %}
+<div class="card mb-4 shadow-sm">
+  <div class="card-body">
+    <h5 class="card-title">{{ item.title }} </h5>
+    <p class="mt-0 mb-1 font-weight-normal"><strong>Inventors:</strong> {% include widgets/author_list.html authors=item.authors %}</p>
+    <p class="mt-0 mb-0 small">Title (in Korean): {{ item.title_kr }} </p>
+    <p class="mt-0 mb-0 small">Application: {{ item.authority }} Patent No. {{ item.application_number }}</p>
+    <p class="mt-0 mb-0 small">Related paper : "{{ item.related_paper }}" ({{ item.paper_pub: "USENIX Sec`25"
+ }}) </p>
+  </div>
+</div>
