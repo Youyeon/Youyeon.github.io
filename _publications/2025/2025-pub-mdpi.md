@@ -14,10 +14,10 @@ abstract: >-
 authors:
   - Youyeon Joo
   - Seungjin Ha
-  - Hyunyoung Oh
+  - Hyunyoung Oh#
   - Yunheung Paek#
 links:
-  # Paper: https://www.usenix.org/system/files/conference/usenixsecurity25/sec24winter-prepub-430-nam.pdf
+  Paper: https://www.mdpi.com/1424-8220/25/14/4320
   # Code: https://github.com/SNUSOR-PECT/LOHEN_Public
 #   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
