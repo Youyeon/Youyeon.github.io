@@ -44,11 +44,11 @@ education:
   position: B.S. in Cyber Security (Cum Laude)
   date: Mar. 2018 - Feb. 2022
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Yale University
+  logo: https://img.icons8.com/?size=100&id=21613&format=png&color=000000
+  position: Visiting student
+  date: Jun. 2023 - Jul. 2023
 
 awards:
 - name: Excellence Paper Award of ACK 2024 (granted by KIPS)
