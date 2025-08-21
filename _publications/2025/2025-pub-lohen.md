@@ -20,7 +20,7 @@ authors:
   - Hyungon Moon#
   - Yunheung Paek#
 links:
-  Paper: https://www.usenix.org/system/files/conference/usenixsecurity25/sec24winter-prepub-430-nam.pdf
+  Paper: https://www.usenix.org/system/files/usenixsecurity25-nam-lohen.pdf
   Code: https://github.com/SNUSOR-PECT/LOHEN_Public
 #   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---

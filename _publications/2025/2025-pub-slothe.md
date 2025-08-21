@@ -17,7 +17,7 @@ authors:
   - Seungjin Ha
   - Yunheung Paek#
 links:
-  # Paper: https://www.usenix.org/system/files/conference/usenixsecurity25/
+  Paper: https://www.usenix.org/system/files/usenixsecurity25-nam-slothe.pdf
   Code: https://github.com/SNUSOR-PECT/SLOTHE
   Zenodo: https://zenodo.org/records/15572278
 ---
