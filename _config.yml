@@ -39,6 +39,8 @@ collections:
     output: true
   publications:
     output: true
+  services:
+    output: true
   news:
     output: true
   showcase:

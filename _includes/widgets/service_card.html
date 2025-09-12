@@ -1,0 +1,15 @@
+{% assign item = include.item %}
+<div class="card mb-4 shadow-sm">
+  <div class="card-body">
+    <h5 class="card-title">{{ item.title }} </h5>
+
+    <ul class="list-unstyled mt-0 mb-0 font-weight-normal">
+      {% for conf in item.conferences %}
+        <li>
+          {{ conf }}
+          (<a href="{{ item.links[forloop.index0] }}" target="_blank">Link</a>)
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
