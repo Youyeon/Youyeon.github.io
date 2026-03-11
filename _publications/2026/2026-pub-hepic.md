@@ -9,7 +9,7 @@ pub:            "ACM International Conference on Architectural Support for Progr
 pub_date:       "2026"
 
 abstract: >-
-  TBA
+  Existing Private Inference (PI) techniques are predominantly implemented as either HE-based fire-and-forget methods or MPC-based interactive methods. Recent HE-based PI systems improve the accuracy--performance trade-off via a layer-wise scheme and parameter switching, yet remain bottlenecked by fire-and-forget execution in which the server alone performs costly ciphertext management. This paper presents HEPIC, an HE-based PI system that explores a different design point by leveraging client interventions for ciphertext managements.
 # cover:          /assets/images/covers/cover3.jpg
 authors:
   - Kevin Nam
@@ -18,5 +18,5 @@ authors:
   - Hyungon Moon#
   - Yunheung Paek#
 links:
-  Paper: https://www.asplos-conference.org/asplos2026/
+  Paper: https://dl.acm.org/doi/10.1145/3779212.3790170
 ---
