@@ -1,7 +1,7 @@
 ---
 title:          "LOHEN: Layer-wise Optimizations for Neural Network Inferences over Encrypted Data with High Performance or Accuracy"
 date:           2025-08-13 00:00:00 KST
-selected:       true
+selected:       false
 pub:            "USENIX Security Symposium (USENIX Sec)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
