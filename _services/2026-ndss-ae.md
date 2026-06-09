@@ -6,5 +6,5 @@ conferences:
   - Network and Distributed System Security (NDSS) Symposium 2027
 
 links:
-  # - https://ndss27ae-summer.hotcrp.com/users/pc
+  - https://ndss27ae-summer.hotcrp.com/users/pc
 ---
