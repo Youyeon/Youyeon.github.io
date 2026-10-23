@@ -12,6 +12,12 @@
                     <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
                 </li>
                 {% endfor %}
+                <li class="nav-item d-flex align-items-center ml-sm-2">
+                    <button id="theme-toggle" class="btn theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" title="Switch to dark mode" hidden>
+                        <i class="fas fa-moon theme-icon-moon" aria-hidden="true"></i>
+                        <i class="fas fa-sun theme-icon-sun" aria-hidden="true"></i>
+                    </button>
+                </li>
             </ul>
         </div>
     </div>

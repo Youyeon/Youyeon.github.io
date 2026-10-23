@@ -26,6 +26,7 @@
     {%- endif -%}
 
     {%- assign style = "" -%}
+    {%- assign span_class = "" -%}
     {%- if info['bold'] == true -%}
         {%- assign style = style | append: "font-weight:bold;" -%}
     {%- endif -%}
@@ -36,11 +37,12 @@
         {%- assign style = style | append: "text-decoration:underline;" -%}
     {%- endif -%}
     {%- if info['bg_color'] -%}
+        {%- assign span_class = ' class="author-highlight"' -%}
         {%- assign style = style | append: "background-color:" | append: info['bg_color'] | append: ";" -%}
     {%- endif -%}
 
     {%- if style != "" -%}
-        {%- assign display_name = "<span style='" | append: style | append: "'>" | append: name | append: mark | append: "</span>" -%}
+        {%- assign display_name = "<span" | append: span_class | append: " style='" | append: style | append: "'>" | append: name | append: mark | append: "</span>" -%}
     {%- else -%}
         {%- assign display_name = name | append: mark -%}
     {%- endif -%}

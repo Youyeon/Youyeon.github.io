@@ -1,8 +1,145 @@
 @charset "utf-8";
+
+:root {
+    color-scheme: light;
+    --page-background: #f8f9fa;
+    --surface-background: #fff;
+    --text-color: #212529;
+    --muted-color: #6c757d;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --border-color: #dee2e6;
+    --overlay-background: rgba(255, 255, 255, 0.9);
+    --toggle-hover-background: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="dark"] {
+    color-scheme: dark;
+    --page-background: #16191d;
+    --surface-background: #22262c;
+    --text-color: #e6e9ed;
+    --muted-color: #adb5bd;
+    --link-color: #80bfff;
+    --link-hover-color: #b3d9ff;
+    --border-color: #414852;
+    --overlay-background: rgba(34, 38, 44, 0.94);
+    --toggle-hover-background: rgba(255, 255, 255, 0.1);
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    color: var(--text-color);
+    background-color: var(--page-background);
+}
+
+/* Bootstrap 4 utilities use !important, so theme overrides must do the same. */
+.bg-light {
+    background-color: var(--page-background) !important;
+}
+
+.bg-white {
+    background-color: var(--surface-background) !important;
+}
+
+.mobile-card-overlay {
+    background-color: var(--overlay-background);
+}
+
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    border-radius: 50%;
+    color: var(--text-color);
+}
+
+.theme-toggle[hidden] {
+    display: none;
+}
+
+.theme-toggle:hover {
+    color: var(--text-color);
+    background-color: var(--toggle-hover-background);
+}
+
+.theme-toggle:focus-visible {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+.theme-icon-sun,
+[data-theme="dark"] .theme-icon-moon {
+    display: none;
+}
+
+[data-theme="dark"] .theme-icon-sun {
+    display: inline-block;
+}
+
+[data-theme="dark"] .card,
+[data-theme="dark"] .modal-content,
+[data-theme="dark"] .img-thumbnail {
+    background-color: var(--surface-background);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .text-body {
+    color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .text-muted {
+    color: var(--muted-color) !important;
+}
+
+[data-theme="dark"] a {
+    color: var(--link-color);
+}
+
+[data-theme="dark"] a:hover {
+    color: var(--link-hover-color);
+}
+
+[data-theme="dark"] .author-highlight {
+    color: #000;
+}
+
+[data-theme="dark"] .navbar-light .navbar-brand,
+[data-theme="dark"] .navbar-light .navbar-nav .active > .nav-link,
+[data-theme="dark"] .navbar-light .navbar-nav .nav-link:hover,
+[data-theme="dark"] .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .navbar-light .navbar-nav .nav-link,
+[data-theme="dark"] .navbar-light .navbar-toggler {
+    color: var(--muted-color);
+}
+
+[data-theme="dark"] .navbar-light .navbar-toggler,
+[data-theme="dark"] .modal-header,
+[data-theme="dark"] .modal-footer {
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .border,
+[data-theme="dark"] .border-top,
+[data-theme="dark"] .border-bottom {
+    border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] hr {
+    border-top-color: var(--border-color);
+}
+
+[data-theme="dark"] .nav-pills .nav-link.active,
+[data-theme="dark"] .btn-primary {
+    color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6,
