@@ -28,9 +28,9 @@ short_bio: >-
     If you have any questions, please feel free to contact me.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/profile_joo.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Youyeon Joo
 
 education:
 - name: Seoul National University
@@ -49,6 +49,10 @@ experience:
   logo: https://img.icons8.com/?size=100&id=21613&format=png&color=000000
   position: Visiting student
   date: Jun. 2023 - Jul. 2023
+- name: Nanyang Technological University
+  logo: https://img.icons8.com/?size=100&id=21613&format=png&color=000000
+  position: Visiting student
+  date: Dec. 2026 - Jan. 2027
 
 awards:
 - name: Excellence Paper Award of ASK 2026 (granted by KIPS)
